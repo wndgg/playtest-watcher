@@ -2,8 +2,8 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 
 (async () => {
-  const botToken = "8712346997:AAE31J9kiSaAO75PWADt5nRr6t34sEKNUYw";
-  const chatId = "7088414320";
+  const botToken = process.env.TELEGRAM_BOT_TOKEN;
+  const chatId = process.env.TELEGRAM_CHAT_ID;
   const telegramUrl = "https://api.telegram.org/bot" + botToken + "/sendMessage";
   const seenFile = 'last_seen_game.txt';
 
