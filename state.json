@@ -1,0 +1,55 @@
+{
+  "cookies": [
+    {
+      "name": "g_state",
+      "value": "{\"i_l\":0,\"i_ll\":1774199947106,\"i_b\":\"lMEa3lMcCmjaaAoE63s7p/S9n0CD4ko0D5sYKtPnFM4\",\"i_e\":{\"enable_itp_optimization\":0}}",
+      "domain": "app.weplaytestgames.com",
+      "path": "/",
+      "expires": 1789751947,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth-token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMjdhMzA4NC02NzMzLTRiMmUtOWZiMi00MGI1NDU1OGJmMWQiLCJyb2xlIjoicGxheXRlc3RlciIsImlhdCI6MTc3NDE5OTk1NSwiZXhwIjoxODA1NzM1OTU1fQ.IywegldEFxXWdJvdgjthgh0poDTCe9rilXC_mMTst1M",
+      "domain": ".weplaytestgames.com",
+      "path": "/",
+      "expires": 1805735956.198652,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "csrf-token",
+      "value": "9d460173159723d792e667c2752f10d69a2ccc1d130971f26c23ebe732afddaf",
+      "domain": ".weplaytestgames.com",
+      "path": "/",
+      "expires": 1805735956.198676,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cookie_consent",
+      "value": "accepted",
+      "domain": ".weplaytestgames.com",
+      "path": "/",
+      "expires": 1805735962.184932,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.weplaytestgames.com",
+      "localStorage": [
+        {
+          "name": "auth-storage",
+          "value": "{\"state\":{\"user\":{\"id\":\"a27a3084-6733-4b2e-9fb2-40b54558bf1d\",\"email\":\"tomas.kepic@gmail.com\",\"role\":\"playtester\",\"onboardingCompleted\":true},\"isAuthenticated\":true},\"version\":0}"
+        }
+      ]
+    }
+  ]
+}
